@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --big-font: 'Pacifico', cursive;
+    --one-font:'Poppins', sans-serif;
+}
+.header{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.mom{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+.childern{
+    font-family: var(--big-font);
+    font-weight: 400;
+}
+.childern_two ul li{
+    display: inline;
+    padding: 35px 10px;
+}
+.childern_two ul li .one{
+    color: #AC1313;
+}
+.childern_two ul li a{
+    font-family: var(--one-font);
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.left{
+    border-left: 1px solid  #6C6C6C;
+    padding: 10px;
+}
+.childern_two ul li a:hover{
+    color: #AC1313;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.banner{
+    height: 100vh;
+    background-image: url(../img/banner.png);
+}
+
+
+
+
+
+.hip{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+.taype span{
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--one-font);
+    color: #AC1313;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: inline-block;
+}
+.taype h1{
+    font-family: var(--one-font);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.taype h1 span{
+    position: absolute;
+    font-size: 70px;
+    margin-top: -10px;
+    font-family: var(--one-font);
+}
+.taype p{
+    font-family: var(--one-font);
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 20px 30px;
+    border: none;
+    border: 1px solid #AC1313;
+    background-color: #AC1313;
+    color: #fff;
+    font-weight: 700;
+    font-family: var(--one-font);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.farq{
+    margin: 70px 0;
+}
+.uchlik{
+    display: flex;
+    justify-content: space-around;
+}
+.bir{
+    padding: 40px;
+    border-radius: 50% ;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    background: #E4B366;
+}
+.ikki{
+    background: #F05B10;
+    padding: 40px;
+    border-radius: 50% ;
+}
+.uch{
+    background: #A21010;
+    padding: 40px;
+    border-radius: 50% ;
+}

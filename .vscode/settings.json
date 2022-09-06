@@ -1,0 +1,10 @@
+{
+    "editor.tokenColorCustomizations": {
+    
+    },
+    "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro Flat]": {
+        
+    }
+    }
+}
